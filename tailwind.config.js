@@ -17,9 +17,9 @@ module.exports = {
       backgroundColor: {
         white: "#F7FAFD",
       },
-      screens: {
-        "2xl": "1320px",
-      },
+      // screens: {
+      //   "2xl": "1320px",
+      // },
     },
   },
   plugins: [],
