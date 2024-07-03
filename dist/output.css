@@ -1056,6 +1056,10 @@ body {
     margin-left: 3rem;
   }
 
+  .lg\:ml-8 {
+    margin-left: 2rem;
+  }
+
   .lg\:block {
     display: block;
   }
