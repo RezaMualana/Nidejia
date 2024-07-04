@@ -10,9 +10,10 @@
 </head>
 
 <body>
-    <section class="bg-[#C0D1D9]">
+    <section class="bg-[#C0D1D9] lg:max-w-screen-2xl lg:mx-auto">
         <!-- Header Start -->
-        <header class="bg-white sticky top-5 left-0 rounded-xl w-full lg:max-w-screen-xl lg:mx-auto 2xl:max-w-screen-xl 2xl:mx-auto flex items-center z-10">
+        <header
+            class="bg-white sticky top-5 left-0 rounded-xl w-full lg:max-w-screen-xl lg:mx-auto flex items-center z-10">
             <div class="container mx-auto px-4 sm:px-6 lg:px-14 lg:max-w-full">
                 <div class="flex items-center justify-between relative">
                     <div>
@@ -75,41 +76,147 @@
         <!-- Header End -->
 
         <!-- Content -->
-        <!-- <div class="mt-10 flex bg-white">
-            <div class="">
-                <h4>Find Glorious Living And Loving Space</h4>
-                <p>Dolor house comfortable si amet with cheap price that also lorem when you need grow.</p>
-                <div class="flex items-center bg-white rounded-full shadow-md overflow-hidden">
-                    <input type="text" placeholder="Search by city or country..."
-                        class="flex-grow border-none p-2 pl-4 text-gray-600 rounded-l-full focus:outline-none">
-                    <button
-                        class="bg-orange-500 text-white font-bold py-2 px-4 rounded-r-full hover:bg-orange-400">Explore</button>
-                </div>
-            </div>
-            <img class="" src="dist/images/benner.png" alt="">
-        </div> -->
-        <div class="container mx-auto py-8">
-            <div class="flex md:grid-cols-2 gap-8 items-center">
+        <div class="max-w-screen-xl mx-auto pt-8">
+            <div class="flex gap-8 items-center">
                 <!-- Text Content -->
-                <div class="w-[50%]">
-                    <h1 class="text-5xl font-extrabold leading-normal text-gray-800 mb-4">Find Glorious Living And Loving Space</h1>
-                    <p class="text-gray-600 mb-8 text-xl leading-9">Dolor house comfortable si amet with cheap <br>price that also lorem when
+                <div class="w-[60%]">
+                    <h1 class="text-5xl font-extrabold leading-normal text-gray-800 mb-4">Find Glorious Living <br>And
+                        Loving Space</h1>
+                    <p class="text-gray-600 mb-8 text-xl leading-9">Dolor house comfortable si amet with cheap <br>price
+                        that also lorem when
                         you need grow.</p>
                     <!-- Search Bar -->
                     <div class="flex items-center bg-white rounded-full shadow-md overflow-hidden">
                         <input type="text" placeholder="Search by city or country..."
-                            class="flex-grow border-none p-3 pl-6 text-gray-600 rounded-l-full focus:outline-none">
+                            class="flex-grow border-none p-5 pl-6 text-gray-600 rounded-l-full focus:outline-none">
                         <button
-                            class="bg-orange-500 text-white font-bold py-3 px-6 rounded-r-full hover:bg-orange-400">Explore</button>
+                            class="bg-[#FF9357] text-white font-bold py-5 px-6 rounded-r-full hover:bg-orange-400">Explore</button>
                     </div>
                 </div>
                 <!-- Image Content -->
                 <div>
-                    <img src="dist/images/benner.png" alt="Building" class="ml-7 -mt-16 lg:ml-8 lg:-mt-16" >
+                    <img src="dist/images/benner.png" alt="Building" class="ml-[34px] -mt-16">
                 </div>
             </div>
         </div>
         <!-- End Content -->
+        <!-- Card Hero -->
+        <div class="absolute left-0 lg:-mt-11 w-full">
+            <div class="lg:max-w-screen-xl mx-auto">
+                <!-- Statistics Section -->
+                <div class="bg-white rounded-lg shadow-md flex flex-col md:flex-row items-center justify-around">
+                    <!-- Stat Item -->
+                    <div class="flex items-center mb-6 md:mb-0">
+                        <div class="text-white p-3 rounded-full mr-4">
+                            <!-- Icon can be added here -->
+                            <img src="dist/images/card1.svg" alt="">
+                        </div>
+                        <div>
+                            <h2 class="text-2xl font-bold text-gray-800">382M</h2>
+                            <p class="text-gray-500">Kos Available</p>
+                        </div>
+                    </div>
+                    <!-- Divider -->
+                    <div class="hidden md:block w-px h-12 bg-gray-300"></div>
+                    <!-- Stat Item -->
+                    <div class="flex items-center mb-6 md:mb-0">
+                        <div class="text-white p-3 rounded-full mr-4">
+                            <!-- Icon can be added here -->
+                            <img src="dist/images/card2.svg" alt="">
+                        </div>
+                        <div>
+                            <h2 class="text-2xl font-bold text-gray-800">9/10</h2>
+                            <p class="text-gray-500">People Happy</p>
+                        </div>
+                    </div>
+                    <!-- Divider -->
+                    <div class="hidden md:block w-px h-12 bg-gray-300"></div>
+                    <!-- Stat Item -->
+                    <div class="flex items-center mb-6 md:mb-0">
+                        <div class="text-white p-3 rounded-full mr-4">
+                            <!-- Icon can be added here -->
+                            <img src="dist/images/card3.svg" alt="">
+                        </div>
+                        <div>
+                            <h2 class="text-2xl font-bold text-gray-800">100%</h2>
+                            <p class="text-gray-500">High Security</p>
+                        </div>
+                    </div>
+                    <!-- Divider -->
+                    <div class="hidden md:block w-px h-12 bg-gray-300"></div>
+                    <!-- Stat Item -->
+                    <div class="flex items-center">
+                        <div class="text-white p-3 rounded-full mr-4">
+                            <!-- Icon can be added here -->
+                            <img src="dist/images/card4.svg" alt="">
+                        </div>
+                        <div>
+                            <h2 class="text-2xl font-bold text-gray-800">183</h2>
+                            <p class="text-gray-500">Countries</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+    </section>
+    <section class="bg-white mt-16 lg:max-w-screen-2xl lg:mx-auto">
+        <div class="max-w-screen-xl mx-auto py-8">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold">Our Latest Deals</h2>
+                <p class="text-gray-500">Explore the beauty of architecture and living love!</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card Item -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/300" alt="De Fleece" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">De Fleece</h3>
+                        <p class="text-gray-600">$47,283/mo</p>
+                        <div class="flex items-center mt-2">
+                            <span class="text-orange-500">4.5/5</span>
+                            <div class="ml-2 text-gray-500 text-sm">529 sqft • 1gb</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Item -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/300" alt="Party Every" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Party Every</h3>
+                        <p class="text-gray-600">$18,383/mo</p>
+                        <div class="flex items-center mt-2">
+                            <span class="text-orange-500">4.5/5</span>
+                            <div class="ml-2 text-gray-500 text-sm">529 sqft • 1gb</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Item -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/300" alt="Brown Hall" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Brown Hall</h3>
+                        <p class="text-gray-600">$34,290/mo</p>
+                        <div class="flex items-center mt-2">
+                            <span class="text-orange-500">4.5/5</span>
+                            <div class="ml-2 text-gray-500 text-sm">529 sqft • 1gb</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Item -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/300" alt="Mini Max" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Mini Max</h3>
+                        <p class="text-gray-600">$34,221/mo</p>
+                        <div class="flex items-center mt-2">
+                            <span class="text-orange-500">4.5/5</span>
+                            <div class="ml-2 text-gray-500 text-sm">529 sqft • 1gb</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <script src="dist/js/script.js"></script>
 </body>
