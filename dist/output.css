@@ -842,6 +842,10 @@ video {
   padding: 1.25rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -933,6 +937,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -1232,6 +1241,10 @@ body {
 
   .lg\:font-bold {
     font-weight: 700;
+  }
+
+  .lg\:leading-9 {
+    line-height: 2.25rem;
   }
 
   .lg\:shadow-none {
