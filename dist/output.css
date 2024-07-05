@@ -1243,6 +1243,10 @@ body {
     max-width: 28rem;
   }
 
+  .lg\:flex-1 {
+    flex: 1 1 0%;
+  }
+
   .lg\:gap-8 {
     gap: 2rem;
   }
