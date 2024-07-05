@@ -688,6 +688,14 @@ video {
   width: 1px;
 }
 
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
 .max-w-\[250px\] {
   max-width: 250px;
 }
@@ -1190,6 +1198,10 @@ body {
 
   .lg\:font-extrabold {
     font-weight: 800;
+  }
+
+  .lg\:font-bold {
+    font-weight: 700;
   }
 
   .lg\:shadow-none {
