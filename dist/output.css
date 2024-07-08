@@ -716,6 +716,10 @@ video {
   width: 40%;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .max-w-\[250px\] {
   max-width: 250px;
 }
@@ -1309,6 +1313,10 @@ body {
   .lg\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .lg\:pl-5 {
+    padding-left: 1.25rem;
   }
 
   .lg\:text-5xl {
